@@ -1,7 +1,6 @@
 .landing-gradient {
   display: flex;
-  align-self: center;
-  align-items: center;
+  justify-content: center;
 }
 
 .testing-block {
@@ -10,9 +9,9 @@
 
 body {
   background: linear-gradient(
-    85deg,
-    rgba(255, 160, 150, 0.35),
-    rgba(140, 200, 190, 0.4)
+    90deg,
+    rgba(255, 160, 150, 0.15),
+    rgba(140, 200, 190, 0.25)
   );
   margin: 0;
   border: 0;
