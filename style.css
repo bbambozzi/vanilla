@@ -1,0 +1,20 @@
+.landing-gradient {
+  display: flex;
+  align-self: center;
+  align-items: center;
+}
+
+.testing-block {
+  display: block;
+}
+
+body {
+  background: linear-gradient(
+    85deg,
+    rgba(255, 160, 150, 0.35),
+    rgba(140, 200, 190, 0.4)
+  );
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
