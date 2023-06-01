@@ -17,3 +17,10 @@ body {
   border: 0;
   box-sizing: border-box;
 }
+
+.main-nav {
+  display: flex;
+  background: rgba(200, 200, 200, 0.2);
+  padding: 1.5rem;
+  box-shadow: white, 2em;
+}
