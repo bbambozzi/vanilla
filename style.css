@@ -1,26 +1,42 @@
-.landing-gradient {
-  display: flex;
-  justify-content: center;
-}
-
-.testing-block {
-  display: block;
-}
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 body {
+  font-family: "Roboto", sans-serif;
   background: linear-gradient(
     90deg,
-    rgba(255, 160, 150, 0.15),
-    rgba(140, 200, 190, 0.25)
+    rgba(255, 160, 150, 0.2),
+    rgba(140, 200, 190, 0.2)
   );
   margin: 0;
   border: 0;
   box-sizing: border-box;
 }
 
+.landing-gradient {
+  display: flex;
+  justify-content: center;
+}
+
 .main-nav {
   display: flex;
+  gap: 2em;
   background: rgba(200, 200, 200, 0.2);
-  padding: 1.5rem;
+  padding: 1em;
   box-shadow: white, 2em;
+}
+
+.main-nav-button {
+  border-radius: 2em;
+  font-size: 2rem;
+  border: none;
+  padding: 1em, 1em;
+  background-color: transparent;
+}
+.main-nav-button:hover {
+  color: gray;
+  cursor: pointer;
+}
+
+.main-title {
+  font-size: 3rem;
 }
